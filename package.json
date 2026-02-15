@@ -2,7 +2,7 @@
   "name": "claude-themes-by-zhangcy",
   "displayName": "Claude Themes by Zhangcy",
   "description": "Light and dark themes inspired by Claude",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.0.0"
   },

@@ -3,6 +3,23 @@
   "name": "Claude Dark",
   "type": "dark",
   "colors": {
+    // ── Base Colors ────────────────────────────────────────
+    "foreground": "#c3c1ba",
+    "descriptionForeground": "#9a988f",
+    "disabledForeground": "#6b6961",
+    "icon.foreground": "#b7b5a6",
+    "errorForeground": "#f14444",
+
+    // ── Text (Welcome Page, Walkthroughs, etc.) ───────────
+    "textLink.foreground": "#5cacde",
+    "textLink.activeForeground": "#7ec0ea",
+    "textBlockQuote.background": "#1b1b1b",
+    "textBlockQuote.border": "#d87757",
+    "textCodeBlock.background": "#1b1b1b",
+    "textPreformat.foreground": "#c4a66e",
+    "textPreformat.background": "#1b1b1b",
+    "textSeparator.foreground": "#3e3e38",
+
     // ── Editor ──────────────────────────────────────────────
     "editor.background": "#262626",
     "editor.foreground": "#c3c1ba",
@@ -22,7 +39,7 @@
     "editorWhitespace.foreground": "#3e3e3860",
     "editorIndentGuide.background1": "#3e3e3860",
     "editorIndentGuide.activeBackground1": "#51504a80",
-    "editorLineNumber.foreground": "#51504a",
+    "editorLineNumber.foreground": "#6b6961",
     "editorLineNumber.activeForeground": "#c3c1ba",
     "editorRuler.foreground": "#3e3e38",
     "editorBracketMatch.background": "#d8775720",
@@ -81,13 +98,13 @@
     "titleBar.activeBackground": "#1f1f1f",
     "titleBar.activeForeground": "#c3c1ba",
     "titleBar.inactiveBackground": "#262626",
-    "titleBar.inactiveForeground": "#6b6961",
+    "titleBar.inactiveForeground": "#85837d",
     "titleBar.border": "#3e3e38",
 
     // ── Activity Bar ────────────────────────────────────────
     "activityBar.background": "#1f1f1f",
     "activityBar.foreground": "#c3c1ba",
-    "activityBar.inactiveForeground": "#6b6961",
+    "activityBar.inactiveForeground": "#85837d",
     "activityBar.border": "#3e3e38",
     "activityBarBadge.background": "#d87757",
     "activityBarBadge.foreground": "#ffffff",
@@ -134,7 +151,7 @@
     "tab.activeBackground": "#262626",
     "tab.activeForeground": "#f7f5ee",
     "tab.inactiveBackground": "#1f1f1f",
-    "tab.inactiveForeground": "#6b6961",
+    "tab.inactiveForeground": "#9a988f",
     "tab.border": "#3e3e38",
     "tab.activeBorder": "#262626",
     "tab.activeBorderTop": "#d87757",
@@ -149,7 +166,7 @@
     "panel.border": "#3e3e38",
     "panelTitle.activeBorder": "#d87757",
     "panelTitle.activeForeground": "#f7f5ee",
-    "panelTitle.inactiveForeground": "#6b6961",
+    "panelTitle.inactiveForeground": "#9a988f",
 
     // ── Terminal ────────────────────────────────────────────
     "terminal.background": "#262626",
@@ -176,7 +193,7 @@
     "input.background": "#1b1b1b",
     "input.foreground": "#c3c1ba",
     "input.border": "#3e3e38",
-    "input.placeholderForeground": "#51504a",
+    "input.placeholderForeground": "#6b6961",
     "inputOption.activeBorder": "#d87757",
     "inputOption.activeBackground": "#d8775720",
     "inputOption.activeForeground": "#f7f5ee",
@@ -206,7 +223,7 @@
     "badge.foreground": "#ffffff",
 
     // ── Breadcrumb ──────────────────────────────────────────
-    "breadcrumb.foreground": "#6b6961",
+    "breadcrumb.foreground": "#9a988f",
     "breadcrumb.focusForeground": "#c3c1ba",
     "breadcrumb.activeSelectionForeground": "#c3c1ba",
     "breadcrumbPicker.background": "#303030",
@@ -250,6 +267,29 @@
     // ── Settings ────────────────────────────────────────────
     "settings.modifiedItemIndicator": "#d87757",
     "settings.headerForeground": "#f7f5ee",
+    "settings.settingsHeaderHoverForeground": "#f7f5ee",
+    "settings.rowHoverBackground": "#1b1b1b40",
+    "settings.focusedRowBackground": "#1b1b1b60",
+    "settings.focusedRowBorder": "#d8775750",
+    "settings.checkboxBackground": "#1b1b1b",
+    "settings.checkboxForeground": "#c3c1ba",
+    "settings.checkboxBorder": "#3e3e38",
+    "settings.dropdownBackground": "#1b1b1b",
+    "settings.dropdownForeground": "#c3c1ba",
+    "settings.dropdownBorder": "#3e3e38",
+    "settings.dropdownListBorder": "#3e3e38",
+    "settings.textInputBackground": "#1b1b1b",
+    "settings.textInputForeground": "#c3c1ba",
+    "settings.textInputBorder": "#3e3e38",
+    "settings.numberInputBackground": "#1b1b1b",
+    "settings.numberInputForeground": "#c3c1ba",
+    "settings.numberInputBorder": "#3e3e38",
+
+    // ── Keybinding Label ──────────────────────────────────
+    "keybindingLabel.background": "#1b1b1b",
+    "keybindingLabel.foreground": "#c3c1ba",
+    "keybindingLabel.border": "#51504a",
+    "keybindingLabel.bottomBorder": "#3e3e38",
 
     // ── Integrated Terminal ──────────────────────────────────
     "terminal.selectionBackground": "#d8775740",
@@ -258,6 +298,21 @@
     // ── Welcome Page ────────────────────────────────────────
     "walkThrough.embeddedEditorBackground": "#1f1f1f",
     "welcomePage.background": "#262626",
+    "welcomePage.tileBackground": "#1f1f1f",
+    "welcomePage.tileHoverBackground": "#1b1b1b",
+    "welcomePage.tileBorder": "#3e3e38",
+    "welcomePage.progress.foreground": "#d87757",
+    "welcomePage.progress.background": "#3e3e38",
+
+    // ── Menu ──────────────────────────────────────────────
+    "menu.background": "#303030",
+    "menu.foreground": "#c3c1ba",
+    "menu.selectionBackground": "#1a1813",
+    "menu.selectionForeground": "#f7f5ee",
+    "menu.separatorBackground": "#3e3e38",
+    "menu.border": "#3e3e38",
+    "menubar.selectionBackground": "#1a1813",
+    "menubar.selectionForeground": "#f7f5ee",
 
     // ── Command Center ──────────────────────────────────────
     "commandCenter.foreground": "#b7b5a6",
