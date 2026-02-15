@@ -1,0 +1,32 @@
+{
+  "name": "claude-themes-by-zhangcy",
+  "displayName": "Claude Themes by Zhangcy",
+  "description": "Light and dark themes inspired by Claude",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "publisher": "Zhangcy",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyNew/claude-theme-vscode"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Claude Light",
+        "uiTheme": "vs",
+        "path": "./themes/claude-light-color-theme.json"
+      },
+      {
+        "label": "Claude Dark",
+        "uiTheme": "vs",
+        "path": "./themes/claude-dark-color-theme.json"
+      }
+    ]
+  }
+}
