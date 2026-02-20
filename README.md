@@ -1,11 +1,14 @@
 # Claude Theme
 
-A color theme inspired by Claude — available in **Light** and **Dark** variants with warm, readable colors and clear syntax highlighting.
+A color themes inspired by Claude — available in **Light** and **Dark** variants with warm, readable colors and clear syntax highlighting.
+
+> **⚠️ Work in progress (WIP)** — This theme is still under development; colors and syntax highlighting may change between versions.
 
 ## Features
 
 - **Claude Light** — Cream background, warm brown text, and balanced accent colors
 - **Claude Dark** — Soft dark gray background with coral and blue accents
+- **Claude Light (Experimental)** / **Claude Dark (Experimental)** — Alternative color palettes still being tuned; try these if you want to preview upcoming changes or prefer a different balance of contrast and hues.
 
 ## Installation
 
@@ -18,7 +21,7 @@ A color theme inspired by Claude — available in **Light** and **Dark** variant
 
 1. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`).
 2. Run **Preferences: Color Theme**.
-3. Choose **Claude Light** or **Claude Dark**.
+3. Choose **Claude Light**, **Claude Dark**, or one of the **Experimental** variants.
 
 ## Screenshots
 

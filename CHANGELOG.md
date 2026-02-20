@@ -4,6 +4,12 @@ All notable changes to the "claude-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.4] - 2026-02-20
+
+### Added
+
+- Add experimental color themes
+
 ## [0.0.3] - 2026-02-16
 
 ### Changed

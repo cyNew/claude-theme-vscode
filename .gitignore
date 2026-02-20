@@ -1,7 +1,11 @@
 node_modules
 *.vsix
 .env
+.claude
 
 .DS_Store
 
 .vscode
+
+docs/
+scripts/
