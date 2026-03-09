@@ -4,6 +4,12 @@ All notable changes to the "claude-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.5] - 2026-03-09
+
+### Changed
+
+- Updated .vscodeignore to reduce bundle size
+
 ## [0.0.4] - 2026-02-20
 
 ### Added

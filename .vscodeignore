@@ -1,4 +1,8 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.DS_Store
+.claude/
 vsc-extension-quickstart.md
+screenshots/
+CHANGELOG.md
