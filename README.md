@@ -27,15 +27,15 @@ A color themes inspired by Claude — available in **Light** and **Dark** varian
 
 ### Light theme
 
-| HTML | TSX |
-|------|-----|
-| ![Claude Light - HTML](screenshots/light-html.png) | ![Claude Light - TSX](screenshots/light-tsx.png) |
+| HTML | TSX | Java |
+|------|-----| ---- |
+| ![Claude Light - HTML](screenshots/light-html.png) | ![Claude Light - TSX](screenshots/light-tsx.png) | ![Claude Light - Java](screenshots/light-java.png) |
 
 ### Dark theme
 
-| HTML | TSX |
-|------|-----|
-| ![Claude Dark - HTML](screenshots/dark-html.png) | ![Claude Dark - TSX](screenshots/dark-tsx.png) |
+| HTML | TSX | Java |
+|------|-----| ---- |
+| ![Claude Dark - HTML](screenshots/dark-html.png) | ![Claude Dark - TSX](screenshots/dark-tsx.png) | ![Claude Dark - Java](screenshots/dark-java.png) |
 
 ## License
 

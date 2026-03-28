@@ -4,6 +4,16 @@ All notable changes to the "claude-theme" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.6] - 2026-03-28
+
+### Changed
+
+- Improved Claude Light theme identifier readability by darkening color values
+  - Variables and parameters: adjusted to deeper warm black (`#2b2820`) for better contrast
+  - Properties and object keys (including JSON keys): adjusted to dark warm brown (`#4a4235`) for visual hierarchy
+  - Constants, readonly variables, and enum members: unified to `#2b2820`
+  - Operators and punctuation (quotes, brackets): deepened to `#5a5045` for subtle contrast improvement
+
 ## [0.0.5] - 2026-03-09
 
 ### Changed

@@ -1,8 +1,13 @@
 .vscode/**
 .vscode-test/**
+.git/**
 .gitignore
+.gitattributes
 .DS_Store
+.env
 .claude/
+CLAUDE.md
 vsc-extension-quickstart.md
+node_modules/**
+*.vsix
 screenshots/
-CHANGELOG.md

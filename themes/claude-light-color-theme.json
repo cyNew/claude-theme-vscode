@@ -331,7 +331,7 @@
         "keyword.operator.spread"
       ],
       "settings": {
-        "foreground": "#6b5d50"
+        "foreground": "#5a5045"
       }
     },
     // ── Strings ─────────────────────────────────────────────
@@ -400,7 +400,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#9a5627"
+        "foreground": "#2b2820"
       }
     },
     // ── Functions ────────────────────────────────────────────
@@ -432,7 +432,7 @@
         "meta.parameter"
       ],
       "settings": {
-        "foreground": "#5c5a50",
+        "foreground": "#2b2820",
         "fontStyle": "italic"
       }
     },
@@ -498,7 +498,7 @@
         "variable.other.readwrite"
       ],
       "settings": {
-        "foreground": "#3d3826"
+        "foreground": "#2b2820"
       }
     },
     {
@@ -509,7 +509,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#6b5830"
+        "foreground": "#4a4235"
       }
     },
     {
@@ -536,7 +536,7 @@
         "meta.brace"
       ],
       "settings": {
-        "foreground": "#6b5d50"
+        "foreground": "#5a5045"
       }
     },
     // ── Tags (HTML/JSX/XML) ─────────────────────────────────
@@ -609,7 +609,7 @@
         "string.json support.type.property-name"
       ],
       "settings": {
-        "foreground": "#6b5830"
+        "foreground": "#4a4235"
       }
     },
     {
@@ -769,18 +769,18 @@
     "class.defaultLibrary": "#2a7eb5",
     "interface": { "foreground": "#2a8a8a", "italic": true },
     "enum": "#2a7eb5",
-    "enumMember": "#9a5627",
+    "enumMember": "#2b2820",
     "typeParameter": "#2a8a8a",
     "function": "#8b67c9",
     "function.defaultLibrary": "#8b67c9",
     "method": "#8b67c9",
     "macro": "#9c87f6",
-    "variable": "#3d3826",
-    "variable.readonly": "#9a5627",
+    "variable": "#2b2820",
+    "variable.readonly": "#2b2820",
     "variable.defaultLibrary": "#b2572f",
-    "parameter": { "foreground": "#5c5a50", "italic": true },
-    "property": "#6b5830",
-    "property.readonly": "#6b5830",
+    "parameter": { "foreground": "#2b2820", "italic": true },
+    "property": "#4a4235",
+    "property.readonly": "#4a4235",
     "decorator": "#9c87f6",
     "event": "#8b67c9",
     "comment": { "foreground": "#85837d", "italic": true },
@@ -788,6 +788,6 @@
     "keyword": "#cb6441",
     "number": "#b2572f",
     "regexp": "#2a8a8a",
-    "operator": "#6b5d50"
+    "operator": "#5a5045"
   }
 }
